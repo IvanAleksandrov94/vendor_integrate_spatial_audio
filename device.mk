@@ -28,6 +28,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/google_nos/test/system-test-harness
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true
+# enable spatial audio support    
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.audio.spatializer_enabled=true
 # enable cal by default on accel sensor
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.debug.sensors.accel_cal=1
