@@ -18,3 +18,8 @@ The following figure illustrates the spatial audio related changes made to the a
 
 <img src="/source/spatial-audio.png"/>
 <img src="/source/spatial-sys-arch.png"/>
+
+## Head tracking utility library
+
+[library](https://cs.android.com/android/platform/superproject/+/master:frameworks/av/media/libheadtracking/)
+
